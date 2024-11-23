@@ -38,6 +38,12 @@ export const ProjectsHome = () => {
           status="FINALIZADO"
         />
         <ProjectItemHome
+          title="DSW Hex to Arduino"
+          description="Perfeito para enviar para arduino scripts.hex, funciona com placas de arduino de terceira geração, R3."
+          url="/downloads"
+          status="FINALIZADO"
+        />
+        <ProjectItemHome
           title="DSW Gamepad Test"
           description="Teste seu volante ou gamepad."
           url="/downloads"
