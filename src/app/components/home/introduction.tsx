@@ -18,7 +18,7 @@ export const IntroductionHome = () => {
         . nosso foco é distribuir conhecimento a comunidade via DISCORD entre no link abaixo
       </p>
       <div className="mt-5 lg:mt-7">
-        <Link href="https://github.com/Valdemir-DSW">
+        <Link href="https://discord.gg/ecf7PGTVVg">
           <Button>DISCORD</Button>
         </Link>
       </div>
