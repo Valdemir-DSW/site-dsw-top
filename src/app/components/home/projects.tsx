@@ -13,12 +13,7 @@ export const ProjectsHome = () => {
           url="/downloads"
           status="FINALIZADO"
         />
-        <ProjectItemHome
-          title="DSW Button Box"
-          description="Programa para fazer button box com Arduino Leonardo."
-          url="/downloads"
-          status="PARADO"
-        />
+        
         <ProjectItemHome
           title="DSW Painel Pro"
           description="Programa completo para extração de telemetria de jogos de corrida, com suporte para Arduinos e plataformas de movimento."
@@ -54,6 +49,12 @@ export const ProjectsHome = () => {
           description="Calcule o torque, energia e polias de seu volante para obter uma melhor experiência."
           url="https://github.com/Valdemir-DSW"
           status="DISPONIVEL"
+        />
+        <ProjectItemHome
+          title="DSW Button Box"
+          description="Programa para fazer button box com Arduino Leonardo."
+          url="/downloads"
+          status="PARADO"
         />
       </div>
     </div>
