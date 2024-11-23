@@ -15,7 +15,7 @@ export const IntroductionHome = () => {
         caros. Nosso foco é tornar a simulação de corrida acessível a todos,
         promovendo a criatividade e o aprendizado dentro da comunidade de jogos
         de corrida.
-        > nosso foco é distribuir conhecimento a comunidade via DISCORD entre no link abaixo
+        . nosso foco é distribuir conhecimento a comunidade via DISCORD entre no link abaixo
       </p>
       <div className="mt-5 lg:mt-7">
         <Link href="https://github.com/Valdemir-DSW">
