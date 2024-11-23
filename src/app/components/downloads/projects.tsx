@@ -17,14 +17,13 @@ export const ProjectsDownloads = () => {
           title="DSW"
           updateHistory="Versão 1/8/2024: Ajuste de compatibilidade com Windows 11."
           credits="Valdemir"
-          urlDownload="https://www.mediafire.com/file/r13yp1pzxa09mfx/dsw.zip/file"
+          urlDownload="https://drive.google.com/file/d/1YXFUSyRE2AWyxrU9cIi9hvI1CEAW8DYR/view?usp=sharing"
         />
-
         <ProjectItemDownload
-          title="DSW button box"
+          title="DSW hex to Arduino"
           updateHistory="N/A"
           credits="Valdemir"
-          urlDownload="https://www.mediafire.com/file/gvf8hbtkxcdls28/Button_box.zip/file"
+          urlDownload="https://drive.google.com/uc?export=download&id=1FM6WTYsfnZAgtsX0peS9I7DZ-0QMbzWv"
         />
 
         <ProjectItemDownload
@@ -55,11 +54,12 @@ export const ProjectsDownloads = () => {
           urlDownload="https://drive.google.com/uc?export=download&id=11N7InqSofK3GbgqR1T1nZJ99MwxX9yit"
         />
 
+        
         <ProjectItemDownload
-          title="DSW hex to Arduino"
+          title="DSW button box"
           updateHistory="N/A"
           credits="Valdemir"
-          urlDownload="https://drive.google.com/uc?export=download&id=1FM6WTYsfnZAgtsX0peS9I7DZ-0QMbzWv"
+          urlDownload="https://www.mediafire.com/file/gvf8hbtkxcdls28/Button_box.zip/file"
         />
       </div>
     </div>
