@@ -1,7 +1,7 @@
 
 import { ProjectItemHome } from "./project-item";
 
-export const ProjectsHome = () => {agora e online
+export const ProjectsHome = () => {
   return (
     <div className="mt-10 lg:mt-36 flex flex-col items-center justify-center w-ful mb-10">
       <h1 className="font-medium text-3xl text-center lg:text-4xl mb-10">
