@@ -236,8 +236,12 @@ export const ContentGamepadTest = () => {
       <div className="flex flex-wrap items-center gap-4 mb-4">
         <h1 className="text-xl sm:text-2xl font-bold">DSW Gamepad Test</h1>
         <span className="text-red-400 text-sm sm:text-base">BETA</span>
+        
         <span className="ml-auto text-sm sm:text-base">
           Frame: {frameCount.toString().padStart(2, "0")}
+        </span>
+        <span className="ml-auto text-sm sm:text-base">
+            <h6 > toque para pausar atualiza a página para despausar</h6>
         </span>
       </div>
 
