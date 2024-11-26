@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { Discord } from "../images/discord";
 import { GitHub } from "../images/github";
+import { youtube as YouTube } from "../images/youtube"; // Certifique-se de que o caminho está correto
 import { SkelectonImage } from "../images/skelecton-image";
 
 export const Carrossel = () => {
@@ -18,6 +19,7 @@ export const Carrossel = () => {
               : "[animation-play-state:running]"
           }`}
         >
+          {/* Layout para telas grandes */}
           <div className={`gap-4 lg:flex hidden`}>
             <SkelectonImage size={140} />
             <SkelectonImage size={140} />
@@ -34,11 +36,18 @@ export const Carrossel = () => {
             >
               <GitHub size={150} />
             </div>
+            <div
+              onMouseEnter={() => setIsHovered(true)}
+              onMouseLeave={() => setIsHovered(false)}
+            >
+              <YouTube size={150} /> {/* YouTube adicionado aqui */}
+            </div>
             <SkelectonImage size={140} />
             <SkelectonImage size={140} />
             <SkelectonImage size={140} />
           </div>
 
+          {/* Layout para telas pequenas */}
           <div className="gap-4 flex lg:hidden w-full">
             <SkelectonImage size={60} />
             <div
@@ -52,6 +61,12 @@ export const Carrossel = () => {
               onMouseLeave={() => setIsHovered(false)}
             >
               <GitHub size={140} />
+            </div>
+            <div
+              onMouseEnter={() => setIsHovered(true)}
+              onMouseLeave={() => setIsHovered(false)}
+            >
+              <YouTube size={140} /> {/* YouTube adicionado aqui */}
             </div>
             <SkelectonImage size={60} />
           </div>
