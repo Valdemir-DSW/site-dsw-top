@@ -43,7 +43,7 @@ export const ProjectsHome = () => {
           title="DSW Pro"
           description="Programa gratuito para desenvolver volantes com force feedback na STM32."
           url="/downloads"
-          status="FINALIZADO"
+          status="NAO LANCADO"
         />
         
         <ProjectItemHome
