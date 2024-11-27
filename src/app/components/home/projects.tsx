@@ -28,7 +28,7 @@ export const ProjectsHome = () => {
         />
         <ProjectItemHome
           title="DSW Button Box Pro"
-          description="Atualização otimizada de seu antecessor, com melhor interface e sem travamentos, ainda gratuito."
+          description="Atualização otimizada de seu antecessor, com melhor interface e sem travamentos, ainda gratuito. Disponibilizando 14 botões no modo direto e 4 analógicos podendo transformar o analógico em chave seletora que possibilita em cada analógico potenciômetro/sensor hall transformar em 4 botões ! para Arduino leonardo 32u4"
           url="/downloads"
           status="FINALIZADO"
         />
