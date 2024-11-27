@@ -43,7 +43,7 @@ export const ProjectsDownloads = () => {
         <ProjectItemDownload
           title="Fedit"
           updateHistory="N/A"
-          credits="Desconhecido"
+          credits="1999Microsoft"
           urlDownload="https://drive.google.com/uc?export=download&id=1lfnVPUbXxLOgoSSfZWfEtef8UX4uZrBu"
         />
 
