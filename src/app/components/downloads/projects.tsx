@@ -8,7 +8,7 @@ export const ProjectsDownloads = () => {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8 max-w-7xl mx-auto px-4 mb-20">
         <ProjectItemDownload
           title="DSW BUTTON BOX PRO"
-          updateHistory="Versão Firmware 1.41 — 26/08/2024: Correção de conflito nos analógicos 3 e 4. Caso encontre problemas, informe á ferramenta de relatório de bugs na aba 'Sobre'. A função wireless ainda está em desenvolvimento.."
+          updateHistory="Versão Firmware 1.41 — 26/08/2024: Correção de conflito nos analógicos 3 e 4. Caso encontre problemas, informe á ferramenta de relatório de bugs na aba 'Sobre'. "
           credits="2024 Valdemir do DSW"
           urlDownload="https://drive.usercontent.google.com/download?id=19LYOJu8YpEkC1aB4EFmfJIRspdoxR6GX&export=download&authuser=0"
         />
