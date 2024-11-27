@@ -53,7 +53,18 @@ export const ProjectsDownloads = () => {
           credits="Desconhecido"
           urlDownload="https://drive.google.com/uc?export=download&id=11N7InqSofK3GbgqR1T1nZJ99MwxX9yit"
         />
-
+          <ProjectItemDownload
+          title="DI View"
+          updateHistory="N/A"
+          credits="2004 logitech"
+          urlDownload="https://drive.google.com/file/d/1pI5-aUEYOS0FNJ9ZHuAyVqFT8vWK4TdG/view?usp=sharing"
+        />
+         <ProjectItemDownload
+          title="DX Tweak 2"
+          updateHistory="N/A"
+          credits="2004 logitech"
+          urlDownload="https://drive.google.com/file/d/1NliW-I78wInlkKsnmFG_7_RDtJoQxj1H/view?usp=sharing"
+        />
         
         <ProjectItemDownload
           title="DSW button box"
