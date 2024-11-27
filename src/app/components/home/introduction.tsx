@@ -10,6 +10,12 @@ export const IntroductionHome = () => {
       <p className="text-center font-normal text-[--text-overshadowed] lg:w-3/6 lg:text-lg">
         O projeto DSW (DIY Steering Wheel) tem como objetivo desenvolver
         simuladores de direção de alta qualidade, acessíveis e de baixo custo.
+        "Valdemir"Começando com a necessidade de softwares mais específicos e 
+        versáteis para o meu simulador acabei criando um grupo para captar e
+        compartilhar o conhecimento que obtive a galera acabou gostando e eu 
+        continuei desenvolvendo software cada vez mais avançados e elegantes! 
+        Comecei fazendo o simples que funcionava mas que atende as necessidades
+        mesmo que complicados de usar passando para algo mais intuitivo.
         Esses simuladores são voltados para entusiastas de corridas virtuais que
         buscam uma experiência imersiva sem precisar investir em equipamentos
         caros. Nosso foco é tornar a simulação de corrida acessível a todos,
