@@ -4,11 +4,7 @@ import { ItemPost } from "./project-item";
 
 export const ProjectsArchives = () => {
   const articles = [
-    {
-      title: "Como ligar fonte chaveada",
-      description: "Aprenda a ligar uma fonte chaveada tipo colmeia completo",
-      urlArchive: "Como ligar fonte chaveada.pdf",
-    },
+    
     {
       title:
         "Esquema de ligação do drive bts 7960 emc-lite , DSW lite e DSW Wheel",
