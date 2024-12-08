@@ -21,6 +21,13 @@ export const ProjectsArchives = () => {
         "Como utilizar x loader e como resolver travamento do arduíno.pdf",
     },
     {
+      title: "Especificações superficiais dos motores RS 555 775 895 997",
+      description:
+        "Parâmetros como torque e energia",
+      urlArchive:
+        "895 low speed.pdf",
+    },
+    {
       title: "Como fazer um volante com Encoder e ffb ou sem",
       description: "neste artigo você irá aprender a fazer um ótimo volante",
       urlArchive: "Como fazer um volante com Encoder e ffb ou sem.pdf",
