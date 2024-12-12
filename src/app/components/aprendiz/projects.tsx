@@ -12,6 +12,14 @@ export const ProjectsArchives = () => {
         "Veja a maneira mais simples de ligar o Driver BTS no emc lite ,dswlite e DSW",
       urlArchive:
         "Esquema de ligação do drive bts 7960 emc-lite , DSW lite e DSW Wheel.pdf",
+    }
+    ,
+    {
+      title: "Porta USB caida no Arduino",
+      description:
+        "Uma possível solução para salvar sua placa que pode funcionar muito bem",
+      urlArchive:
+        "Porta USB caída no  arduíno.pdf",
     },
     {
       title: "Como utilizar x loader e como resolver travamento do arduíno",
