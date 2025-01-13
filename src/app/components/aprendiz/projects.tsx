@@ -22,6 +22,13 @@ export const ProjectsArchives = () => {
         "Porta USB caída no  arduíno.pdf",
     },
     {
+      title: "Esquema chave de luz Volkswagen",
+      description:
+        " esquema da chave de luz Volkswagen mencionado no vídeo no YouTube",
+      urlArchive:
+        "chave_luz_vw.pdf",
+    },
+    {
       title: "Como utilizar x loader e como resolver travamento do arduíno",
       description:
         "Veja a maneira mais simples de Como utilizar x loader e como resolver travamento do arduíno",
