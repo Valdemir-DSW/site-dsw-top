@@ -22,6 +22,12 @@ export const ContentCalculadoraTorque = () => {
   const [power, setPower] = useState<number>(0);
   const [current, setCurrent] = useState<number>(0);
   const [withMargin, setWithMargin] = useState<boolean>(false);
+  
+  const [diametroMotora, setDiametroMotora] = useState<number>(0);
+  const [diametroMovida, setDiametroMovida] = useState<number>(0);
+  const [distanciaEixos, setDistanciaEixos] = useState<number>(0);
+  const [comprimentoCorreia, setComprimentoCorreia] = useState<number>(0);
+  const [unidade, setUnidade] = useState<string>("mm");
 
   const calcularTorque = () => {
     const torque = torqueMotora * (relacaoMovida / relacaoMotora);
@@ -73,6 +79,17 @@ export const ContentCalculadoraTorque = () => {
     }
     setCurrent(parseFloat(corrente.toFixed(2)));
   };
+const calcularComprimentoCorreia = () => {
+  if (distanciaEixos > 0 && diametroMotora > 0 && diametroMovida > 0) {
+    const C = distanciaEixos;
+    const D1 = diametroMotora;
+    const D2 = diametroMovida;
+
+    const L = 2 * C + (Math.PI / 2) * (D1 + D2) + Math.pow(D2 - D1, 2) / (4 * C);
+    
+    setComprimentoCorreia(parseFloat(L.toFixed(2)));
+  }
+};
 
   const getActionButton = () => {
     switch (selectedTab) {
@@ -118,6 +135,63 @@ export const ContentCalculadoraTorque = () => {
   };
 
   return (
+    {selectedTab === "correia" && (
+  <div>
+    <h2 className="text-xl font-semibold mb-5">Cálculo do Comprimento da Correia</h2>
+    <div className="flex flex-col gap-5">
+      <div className="flex flex-col gap-2">
+        <h3>Diâmetro da Polia Motora ({unidade}):</h3>
+        <input
+          type="number"
+          value={diametroMotora}
+          onChange={(e) => setDiametroMotora(Number(e.target.value))}
+          placeholder="Diâmetro da Polia Motora"
+          className="w-full p-2 mb-2 border border-zinc-600 rounded bg-[--background]"
+        />
+      </div>
+      <div className="flex flex-col gap-2">
+        <h3>Diâmetro da Polia Movida ({unidade}):</h3>
+        <input
+          type="number"
+          value={diametroMovida}
+          onChange={(e) => setDiametroMovida(Number(e.target.value))}
+          placeholder="Diâmetro da Polia Movida"
+          className="w-full p-2 mb-2 border border-zinc-600 rounded bg-[--background]"
+        />
+      </div>
+      <div className="flex flex-col gap-2">
+        <h3>Distância entre Eixos ({unidade}):</h3>
+        <input
+          type="number"
+          value={distanciaEixos}
+          onChange={(e) => setDistanciaEixos(Number(e.target.value))}
+          placeholder="Distância entre eixos"
+          className="w-full p-2 mb-2 border border-zinc-600 rounded bg-[--background]"
+        />
+      </div>
+      <div className="flex flex-col gap-2">
+        <h3>Unidade de Medida:</h3>
+        <select
+          value={unidade}
+          onChange={(e) => setUnidade(e.target.value)}
+          className="w-full p-2 mb-2 border border-zinc-600 rounded bg-[--background]"
+        >
+          <option value="mm">Milímetros (mm)</option>
+          <option value="cm">Centímetros (cm)</option>
+          <option value="m">Metros (m)</option>
+        </select>
+      </div>
+    </div>
+    <p className="text-lg mt-4">Comprimento da Correia: {comprimentoCorreia} {unidade}</p>
+    <button
+      onClick={calcularComprimentoCorreia}
+      className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-700 mt-4"
+    >
+      Calcular
+    </button>
+  </div>
+)}
+
     <div className="flex justify-center mt-16 lg:mt-36 mx-5">
       <div className="max-w-4xl w-full rounded-lg shadow-lg lg:p-6">
         <div className="flex justify-between border-b border-zinc-600 pb-4 mb-6">
