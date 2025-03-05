@@ -27,6 +27,12 @@ export const ProjectsArchives = () => {
         " esquema da chave de luz Volkswagen mencionado no vídeo no YouTube",
       urlArchive:
         "chave_luz_vw.pdf",
+    },    {
+      title: "Qual STM escolher",
+      description:
+        "Nosso posicionamento de como escolher a STM32",
+      urlArchive:
+        "Qual STM escolher  (1).pdf",
     },
     {
       title: "Como utilizar x loader e como resolver travamento do arduíno",
