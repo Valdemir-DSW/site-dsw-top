@@ -53,6 +53,12 @@ export const ProjectsDownloads = () => {
           credits="Desconhecido"
           urlDownload="https://drive.google.com/uc?export=download&id=11N7InqSofK3GbgqR1T1nZJ99MwxX9yit"
         />
+        <ProjectItemDownload
+          title="DFU STM32 Uploader + Zadig Driver"
+          updateHistory="N/A"
+          credits="Desconhecido"
+          urlDownload="https://drive.google.com/uc?export=download&id=1IZzzUqz5h_zhboQ7iaM11kz57WxdiNVE"
+        />
           <ProjectItemDownload
           title="DI View"
           updateHistory="N/A"
